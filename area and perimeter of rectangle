@@ -1,0 +1,14 @@
+#include<stdio.h>
+void main()
+{
+int height;
+int base;
+printf("enter the height of rectangle",height);
+scanf("%d",&height);
+printf("enter base of rectangle",base);
+scanf("%d",&base);
+int area=base*height;
+int perimeter=2*(height+base);
+printf("area of rectangle=%d",area);
+printf("perimeter of rectangle=%d,perimeter");
+}
