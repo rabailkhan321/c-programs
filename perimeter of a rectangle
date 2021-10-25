@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int height;
+int width;
+printf("input the height of the rectangle:");
+scanf("%d",&height);
+printf("input the width of the rectanglr");
+scanf("%d",&width);
+int perimeter=height+height+width+width;
+printf("perimeter of the rectangle:%d",perimeter);
+return 0;
+}
