@@ -1,0 +1,17 @@
+//*write  a program to calculate  sum of the numbers occuring in the multiplication table of 8 (consider8*1 to 8*10)
+
+
+
+#include<stdio.h>
+int main()
+{
+   int i=8,j,sum=0;
+   for(j=1;j<=10;j++)
+   {
+       
+       sum=sum+(i*j);
+       
+   }
+   printf("sum is %d\n",sum);
+   return 0;
+}
