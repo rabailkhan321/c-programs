@@ -1,0 +1,15 @@
+//*write  a program to print multiplication table of a give number n*//
+
+#include<stdio.h>
+int main()
+{
+    int  i,j;
+    printf("enter a number of  which you want to have the multipication table");
+    scanf("%d",&i);
+    for(j=1;j<=10;j++)
+    {
+        printf("%d*%d=%d\n",i,j,i*j);
+    }
+ 
+return 0;
+}
