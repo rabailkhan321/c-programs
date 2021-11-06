@@ -1,0 +1,17 @@
+#include<stdio.h>
+char func();
+void main()
+{
+    char ch;
+    ch=func();
+    printf("ch=%c",ch);
+        
+    
+}
+char func()
+{
+    char c;
+    printf("enter a character");
+    scanf("%c",&c);
+    return c;
+}
