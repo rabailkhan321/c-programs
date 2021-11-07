@@ -1,0 +1,20 @@
+/*functions with argument without return type*/
+
+#include<stdio.h>
+
+
+void sum(float,float);
+
+void main()
+{
+    float x,y;
+    printf("enter num 1\n");
+    scanf("%f",&x);
+    printf("enter num 2\n");
+    scanf("%f",&y);
+    sum(x,y);
+}
+void sum(float a,float b)
+{
+printf("sum=%f\n",a+b);
+}
