@@ -1,0 +1,19 @@
+/*this is called function call by value. it has some drawbacks(video part 4). so we use function call by refrence*/
+
+
+
+
+#include<stdio.h>
+void main()
+{
+    int x=5,y=7;
+    func(x,y);
+    printf("x=%d,y=%d",x,y);
+    
+}
+void func(int x,int y)
+{
+    x=7;
+    y=5;
+      printf("x=%d,y=%d",x,y);
+}
